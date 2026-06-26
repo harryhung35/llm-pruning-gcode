@@ -24,7 +24,7 @@ Raw G-code
 
 G-code 輸出
 
-↓ (evaluator.py)
+↓ 
 
 IoU (vs DXF 即時計算的 ground truth)
 
@@ -57,7 +57,6 @@ python run_evaluation.py \
 | 檔案 | 說明 |
 |---|---|
 | `pruneme_granite.py` | PruneMe 剪枝主腳本 |
-| `qlora_heal.py` | QLoRA 微調 (0.1 epoch 版) |
 | `qlora_heal_ep1.py` | QLoRA 微調 (1 epoch 版, 最終採用) |
 | `vllm_inference.py` | vLLM 批次推論 |
 | `inference_no_rule_csv_new_with_timing.py` | 逐筆推論 (原版) |
