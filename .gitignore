@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# 模型 (太大,不放 git)
+granite3b-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# 訓練資料 / 測試資料
+final_full_dataset/
+final_test_data/
+inference_input/
+inference_input_*/
+parameters_test.csv
+*.dxf
+*.gcode
+
+# 訓練輸出 / 推論結果
+qlora_runs/
+*_inference_output*/
+*_eval*/
+*_output/
+raw_outputs/
+*.csv
+*.txt
+*.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# 備份檔
+*.bak
+*.bak_raw
+
+# 大檔
+*.zip
+*.exe
+
+# 但 README / requirements 要保留
+!README.md
+!.gitignore
+!requirements.txt
